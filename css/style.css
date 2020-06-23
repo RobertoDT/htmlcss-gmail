@@ -1,0 +1,88 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; /*regole che mi resettano le dimensioni*/
+}
+
+body{
+  background-image: url(../img/bg2_1920x1200.jpg);
+  background-size: cover;
+}
+
+#container{
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+
+#header-logo{
+  padding-bottom: 20px;
+}
+
+#logo{
+  height: 90px;
+  vertical-align: middle;  /*per centrare il logo con il testo, si sposta l'immagine non la scritta*/
+}
+
+#logo-text{
+  display: inline-block;
+  color: white;
+}
+
+#header-testo{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 5px 0;
+}
+
+#count{
+  color: white;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#count span{
+  display: inline-block;
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 100%;
+}
+
+section{
+  border-bottom: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.email{
+  background-color: lightgrey;
+  border: 1px solid black;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.read{
+  background-color: white;
+}
+
+.chiaro{
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.fondo{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer span {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
